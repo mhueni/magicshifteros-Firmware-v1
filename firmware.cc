@@ -59,7 +59,8 @@ void setup()
 
 																switch (modeIdx) {
 																case 0:
-																								MagicShifterMode();
+																								CounterMode();
+																								//MagicShifterMode();
 																								break;
 																case 1:
 																								ColorPickerMode();
@@ -96,7 +97,7 @@ void setup()
 																								break;
 																case 12:
 																								//ResetMode();
-																								CounterMode();
+																								MagicShifterMode();
 																								break;
 																}
 

@@ -71,7 +71,7 @@ long CounterMode_setTimeout(long countdown_ms) {
 }
 void CounterMode()
 {
-	const long countdown = 5*60*1000L;
+	const long countdown = 1*60*1000L;
 	long timeout = CounterMode_setTimeout(countdown);
 	long remaining = 0;
 	bool blink = false;
